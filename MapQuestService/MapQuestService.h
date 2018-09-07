@@ -2,8 +2,8 @@
 //  MapQuestService.h
 //  MapQuestService
 //
-//  Created by Ryan Khondker on 9/7/18.
-//  Copyright © 2018 Ryan Khondker. All rights reserved.
+//  Created by Mac on 9/7/18.
+//  Copyright © 2018 Mac. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

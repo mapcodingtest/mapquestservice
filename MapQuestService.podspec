@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MapQuestService"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A standalone network service to retrieve locations from MapQuest."
-  s.homepage     = "https://EXAMPLE/MapQuestService"
+  s.homepage     = "https://github.com/mapcodingtest/mapquestservice"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :path => 'MapQuestService' }
+  s.source       = { :git => "https://github.com/mapcodingtest/mapquestservice.git", :tag => "1.0.0" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "NetworkService.swift", "Model"
+  s.source_files  = "MapQuestService/*.{h,swift}", "MapQuestService/Model/*.swift", "MapQuestService/Errors/*.swift"
 
   s.swift_version = "4.0"
 
